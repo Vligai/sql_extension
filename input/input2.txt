@@ -1,0 +1,7 @@
+mf_struct[i].cust+" "+ mf_struct[i].max_1_quant + " "+  mf_struct[i].prod+ " "+  mf_struct[i].year
+1
+cust,prod,day,month,year,state,quant
+sum_0_quant,count_0_quant, max_1_quant
+(mf_struct[i].cust).equals(r.cust),(mf_struct[i].cust).equals(r.cust)
+null
+null

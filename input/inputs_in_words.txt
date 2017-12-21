@@ -1,0 +1,6 @@
+Example inputs:
+1. For each customer find the average quantity  purchased during years 1990 and 1991
+2. For each customer find the largest quantity purchased and what product it is
+3. For each customer find the average quantity bought in states NJ and NY only if the average of NY is less than the average of NJ in the year 1991
+4. For each customer find the average quantity bought in states NJ and NY in the year 1995
+5. For each customer find the average quantity bought in states CT and NY only if the average of NY is less than the average of CT 

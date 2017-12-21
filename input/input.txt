@@ -1,0 +1,7 @@
+mf_struct[i].prod+" "+mf_struct[i].month+" "+ ((double)mf_struct[i].sum_1_quant/ mf_struct[i].count_1_quant)+ " "+ ((double)mf_struct[i].sum_2_quant/ mf_struct[i].count_2_quant)
+2
+cust,prod,day,month,year,state,quant
+sum_0_quant,count_0_quant,sum_1_quant,count_1_quant,sum_2_quant,count_2_quant
+(mf_struct[i].prod).equals(r.prod) && mf_struct[i].month==r.month,(mf_struct[i].prod).equals(r.prod) && mf_struct[i].month<r.month,(mf_struct[i].prod).equals(r.prod) && mf_struct[i].month>r.month 
+null
+r.year == 1997

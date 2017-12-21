@@ -1,0 +1,15 @@
+					/* end generated code */
+					}
+					if(i!=max+1)
+						mfstruct_gen.update_mfstruct(r,i,0);
+				}
+			}
+			/*loop for the number of grouping variables*/
+		while (counter2 <= Integer.parseInt(my_input[1][0])) {
+			fetch_from_db.my_start = true;
+			for (ii = 0; ii < max; ii++) {
+				r = fetch_from_db.get_row();
+				for (i = 0; i < max; i++) {
+					if (mf_struct[i] == null)
+						break;
+						/* generated code */

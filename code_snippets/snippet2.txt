@@ -1,0 +1,11 @@
+	/*end generated code*/
+	System.out.println("Connecting...");
+		post_connect.connect();
+		System.out.println("Successfully Connected to DB!");
+		rows r = new rows();
+		System.out.println("Fetching Data...");
+		System.out.println("-----------------------------");
+		for (;counter1 < max; counter1++){
+			//System.out.println("test36");
+			r = fetch_from_db.get_row();
+			/*generated code */

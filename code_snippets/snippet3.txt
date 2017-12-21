@@ -1,0 +1,11 @@
+			/* end generated code */
+			if (mf_struct[0] == null)
+				mfstruct_gen.mfstruct_insert(r, 0, 0);
+			else {
+				for (i = 0; i < max; i++) {
+					if (mf_struct[i] == null) {
+						mfstruct_gen.mfstruct_insert(r, i, 0);
+						i = max+1;
+						break;
+					}
+					/* generated code */

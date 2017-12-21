@@ -1,0 +1,21 @@
+/*Vladislav Ligai*/
+package cs562;
+
+import java.sql.SQLException;
+import misc.db_connect;
+
+public class generated {
+	/*main method*/
+	public static void main(String[] args)
+			throws NumberFormatException, IllegalArgumentException, IllegalAccessException, SQLException {
+			/*declaring variables*/
+		int max = 500;
+		int i = 0;
+		int ii = 0;
+		int counter1 = 0;
+		int counter2 = 0;
+		String arr_str;
+		String my_input[][] = new String[7][15];
+		mfstruct mf_struct[] = mfstruct_gen.my_struct;
+		db_connect post_connect = new db_connect();
+		/*generated code - array with input*/

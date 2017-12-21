@@ -1,0 +1,14 @@
+					/* end generated code */
+					}
+			}
+			counter2++;
+		}
+			i = 0;
+			/*loop though mf_struct until mf_struct[i] equals to null*/
+			while (i < max) {
+				if(mf_struct[i]==null)
+					break;
+				if(my_input[5][0].equals("null")){
+				/* generated code */
+
+						

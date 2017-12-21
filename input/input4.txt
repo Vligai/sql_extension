@@ -1,0 +1,7 @@
+mf_struct[i].cust+" "+ ((double)mf_struct[i].sum_1_quant/ mf_struct[i].count_1_quant)+ " "+ ((double)mf_struct[i].sum_2_quant/ mf_struct[i].count_2_quant)
+2
+cust,prod,day,month,year,state,quant
+sum_0_quant,count_0_quant,sum_1_quant,count_1_quant,sum_2_quant,count_2_quant
+(mf_struct[i].cust).equals(r.cust),(mf_struct[i].cust).equals(r.cust) && (r.state).equals(\"NJ\"),(mf_struct[i].cust).equals(r.cust) && (r.state).equals(\"NY\")
+null
+r.year==1995
